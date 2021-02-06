@@ -12,7 +12,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - run: echo Hello from action.yml ${{ inputs.who-to-greet }}.
+    - run: echo Hello from action2.yml ${{ inputs.who-to-greet }}.
       shell: bash
     - id: random-number-generator
       run: echo "::set-output name=random-id::$(echo $RANDOM)"
