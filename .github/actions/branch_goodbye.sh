@@ -1,2 +1,2 @@
-echo "goodbye"
+echo "goodbye from branch"
 
